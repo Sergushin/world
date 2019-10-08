@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollerId"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        tools:context="com.example.sergushin.world.InfoActivity">
+
+        <ImageView
+            android:id="@+id/countryFlagInfo"
+            android:layout_width="117dp"
+            android:layout_height="87dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:id="@+id/countryInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="17dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="5dp"
+            android:textSize="27dp" />
+    </LinearLayout>
+</ScrollView>

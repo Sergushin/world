@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "51849355588",
+    "firebase_url": "https://world-f597f.firebaseio.com",
+    "project_id": "world-f597f",
+    "storage_bucket": "world-f597f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51849355588:android:59bd213acbd1cee8",
+        "android_client_info": {
+          "package_name": "com.example.sergushin.world"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51849355588-i3jrofmcnvdho9699n90eks5hku1k4se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbUxVfXOjbIvsxoVt0IAuYgA9-IhSBdbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
